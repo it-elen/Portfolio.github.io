@@ -1,0 +1,236 @@
+html,
+body {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: inline-block;
+    width: 320px;
+}
+
+a {
+    transition: .2s ease;
+}
+
+
+/*
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Indie Flower', cursive;
+*/
+
+header {
+    background: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header_title {
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-family: 'Indie Flower', cursive;
+    margin-top: -50px;
+}
+
+.header_slogan {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.header_arrow {
+    color: #fff;
+    font-size: 48px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 50px;
+}
+
+
+/*portfolio*/
+
+.portfolio {
+    background: #fafafa;
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio_row {
+    margin-bottom: 20px;
+    min-height: 350px;
+}
+
+.portfolio .item {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+    width: 320px;
+    height: 340px;
+    margin: 0 6px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.portfolio .item:hover {
+    opacity: .8;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: #061634;
+}
+
+.portfolio h2 {
+    font-size: 56px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.portfolio_img {
+    margin-bottom: 14px;
+    width: 320px;
+}
+
+.portfolio h3 {
+    font-size: 24px;
+    color: #0052c2;
+    line-height: normal;
+}
+
+.portfolio span {
+    font-size: 20px;
+}
+
+
+/*---------- footer ------------*/
+
+.footer {
+    padding: 80px 0;
+    background: #061634;
+    height: 380px;
+    padding: 24px 0 0;
+    margin: auto;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 28px;
+    color: #6479a2;
+}
+
+.footer span {
+    font-size: 18px;
+    color: #6479a2;
+}
+
+.footer a {
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+
+.social a {
+    border: none;
+    border-radius: 0;
+    font-size: 32px;
+}
+
+.social a:focus,
+.social a:hover {
+    color: #ffe400;
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+.button a:focus,
+.button a:hover {
+    background-color: #fafafa;
+    color: #061634;
+}
+
+.footer .container {
+    background: #061634;
+}
+
+.footer .item {
+    height: 200px;
+    padding: 20px 0 0;
+}
+
+.footer .item:nth-child(2) span {
+    color: #fff;
+}
+
+.btn_up {
+    color: #fff;
+    background: #061634;
+    right: 12px;
+    bottom: 12px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    transition: .5s;
+    border-radius: 10px;
+    z-index: 999;
+    position: fixed;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.btn_up:hover,
+.btn_up:focus {
+    text-decoration: none;
+    color: #6479a2;
+}
+
+.responsive {
+    min-width: 320px;
+    max-width: 1150px;
+    margin: 0 auto;
+    border-top: 2px solid #061634;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.res_item {
+    width: 320px;
+    height: 340px;
+    margin: 0 6px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
